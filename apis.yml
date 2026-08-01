@@ -1,7 +1,23 @@
 aid: soasta
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/soasta.png
 name: Soasta
-description: Soasta is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: SOASTA was a web and mobile performance-testing company known for CloudTest (cloud-based
+  load and performance testing) and mPulse (real user monitoring / RUM). It was surfaced as a portfolio
+  company of Canaan Partners and added to the API Evangelist network as a stub for enrichment. SOASTA was
+  acquired by Akamai Technologies (its products were folded into Akamai's mPulse and CloudTest offerings);
+  the former soasta.com domain now 301-redirects to akamai.com, so SOASTA no longer operates an independent
+  developer portal, API surface, or product presence of its own.
 url: https://raw.githubusercontent.com/api-evangelist/soasta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +27,23 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-status: acquired
+x-acquired-by: akamai
+x-acquired-evidence: 'soasta.com 301-redirects to akamai.com (probed 2026-07-21)'
 tags:
 - Company
+- Performance Testing
+- Load Testing
+- Real User Monitoring
+- Web Performance
+- Acquired
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
